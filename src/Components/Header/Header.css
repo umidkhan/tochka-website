@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+
+body {
+  box-sizing: content-box;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+header {
+  width: 100%;
+} */
+
+.headerTitle {
+  margin-top: 150px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  /* line-height: 30px; */
+}
+
+.headerText {
+  font-family: "PT Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.headerBtnGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerBtn1 {
+  font-family: "Lora";
+  width: 150px;
+  height: 50px;
+  border: 2px solid;
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.headerBtn2 {
+  font-family: "Lora";
+  width: 250px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.headerImage {
+  width: 860px;
+  height: 700px;
+  margin: 0;
+}
